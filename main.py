@@ -8,7 +8,7 @@ from matplotlib.font_manager import FontProperties
 # url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
 
 
-# Read csv
+# Read data
 DF = pd.read_csv('data/owid-covid-data.csv')
 
 
