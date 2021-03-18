@@ -6,9 +6,9 @@ from matplotlib.font_manager import FontProperties
 
 # Updated Data on COVID-19 (coronavirus) by Our World in Data
 # url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
-# DF = pd.read_csv(url)
 
-# Read csv locally
+
+# Read csv
 DF = pd.read_csv('data/owid-covid-data.csv')
 
 
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     while True:
         country_choice = str(input(
-            "Enter 1 country or continent from list above e.g. FIN or 'n' for no more: "
+            "Enter 1 country e.g. FIN or 'n' for no more: "
         )).upper()
         if country_choice == 'N':
             break
